@@ -1,0 +1,16 @@
+from models.cliente import Cliente
+from models.conta import Conta
+
+
+gabriel: Cliente = Cliente('Gabriel Maciel', 'gabriel@gmail.com', '415568418-76', '12/08/1995')
+livia: Cliente = Cliente('Livia Maciel', 'livia@bol.com', '12345678-56', '11/09/1993')
+
+#print(gabriel)
+#print(livia)
+
+contaf: Conta = Conta(gabriel)
+contaa: Conta = Conta(livia)
+
+#print(contaf)
+#print(contaa)
+
